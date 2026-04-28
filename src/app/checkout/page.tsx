@@ -95,24 +95,46 @@ export default function CheckoutPage() {
                                 <h2 className="text-lg font-semibold text-gray-900 mb-4 pb-2 border-b border-gray-200">Ihre Bestellung</h2>
                                 <div className="space-y-4 max-h-[400px] overflow-y-auto pr-2">
                                     {state.items.map((item) => (
-                                        <div key={item.product_id} className="flex items-center space-x-4">
-                                            <div className="relative w-16 h-16 flex-shrink-0 border border-gray-200 rounded-md overflow-hidden bg-white">
-                                                <Image
-                                                    src={item.image || '/images/placeholder.png'}
-                                                    alt={item.title}
-                                                    fill
-                                                    className="object-contain p-1"
-                                                />
+                                        <div key={item.handle} className="flex flex-col space-y-2 pb-4 border-b border-gray-100 last:border-0 last:pb-0">
+                                            <div className="flex items-center space-x-4">
+                                                <div className="relative w-16 h-16 flex-shrink-0 border border-gray-200 rounded-md overflow-hidden bg-white">
+                                                    <Image
+                                                        src={item.image || '/images/placeholder.png'}
+                                                        alt={item.title}
+                                                        fill
+                                                        className="object-contain p-1"
+                                                    />
+                                                </div>
+                                                <div className="flex-1 min-w-0">
+                                                    <p className="text-sm font-medium text-gray-900 line-clamp-1">{item.title}</p>
+                                                    <p className="text-sm text-gray-500">Menge: {item.quantity}</p>
+                                                </div>
+                                                <div className="text-sm font-medium text-gray-900">
+                                                    €{((parseFloat(item.price) * item.quantity)).toFixed(2).replace('.', ',')}
+                                                </div>
                                             </div>
-                                            <div className="flex-1 min-w-0">
-                                                <p className="text-sm font-medium text-gray-900 truncate">{item.title}</p>
-                                                <p className="text-sm text-gray-500">Menge: {item.quantity}</p>
-                                            </div>
-                                            <div className="text-sm font-medium text-gray-900">
-                                                €{((parseFloat(item.price) * item.quantity)).toFixed(2).replace('.', ',')}
-                                            </div>
+
+                                            {/* Render individual bundle items if present */}
+                                            {item.bundleItems && (
+                                                <div className="ml-10 sm:ml-20 space-y-2 pt-1">
+                                                    {item.bundleItems.map((bundleProduct, idx) => (
+                                                        <div key={idx} className="flex items-center space-x-3 opacity-80">
+                                                            <div className="relative w-8 h-8 flex-shrink-0 border border-gray-100 rounded bg-white">
+                                                                <Image
+                                                                    src={bundleProduct.images[0] || '/images/placeholder.png'}
+                                                                    alt={bundleProduct.title}
+                                                                    fill
+                                                                    className="object-contain p-0.5"
+                                                                />
+                                                            </div>
+                                                            <p className="text-[11px] text-gray-600 line-clamp-1">{bundleProduct.title}</p>
+                                                        </div>
+                                                    ))}
+                                                </div>
+                                            )}
                                         </div>
                                     ))}
+
                                 </div>
                                 <div className="mt-6 pt-4 border-t border-gray-200 flex justify-between items-center">
                                     <span className="text-base font-semibold text-gray-900">Gesamt</span>

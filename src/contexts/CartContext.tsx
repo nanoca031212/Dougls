@@ -11,7 +11,9 @@ export interface CartItem {
   price: string;
   quantity: number;
   image?: string;
+  bundleItems?: any[];
 }
+
 
 interface CartState {
   items: CartItem[];
@@ -144,8 +146,9 @@ const cartReducer = (state: CartState, action: CartAction): CartState => {
 interface CartContextType {
   state: CartState;
   addItem: (item: Omit<CartItem, 'quantity'>) => void;
-  addBundle: (bundle: { size: number, price: string, items: Product[] }) => void;
+  addBundle: (bundle: { size: number, price: string, items: any[] }) => void;
   removeItem: (handle: string) => void;
+  removeBundleItem: (bundleHandle: string, productIndex: number) => void;
 
   updateQuantity: (handle: string, quantity: number) => void;
   clearCart: () => void;
@@ -217,12 +220,40 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
       title: bundleTitle,
       price: bundle.price,
       quantity: 1,
-      image: bundle.items[0]?.images[0] || ""
+      image: bundle.items[0]?.images[0] || "",
+      bundleItems: bundle.items
     };
+
 
     dispatch({ type: 'ADD_ITEM', payload: bundleItem });
     openCart();
   };
+
+  const removeBundleItem = (bundleHandle: string, productIndex: number) => {
+    const bundle = state.items.find(i => i.handle === bundleHandle);
+    if (!bundle || !bundle.bundleItems) return;
+
+    const newBundleItems = [...bundle.bundleItems];
+    newBundleItems.splice(productIndex, 1);
+
+    if (newBundleItems.length === 0) {
+      removeItem(bundleHandle);
+    } else {
+      // Update bundle title and items
+      const newTitle = `${bundle.bundleItems.length - 1}er Bundle: ${newBundleItems.map(i => i.title).join(', ')}`;
+      const updatedBundle = {
+        ...bundle,
+        title: newTitle,
+        bundleItems: newBundleItems
+      };
+      
+      // We need a new action to update an item or just remove and add?
+      // Let's add an UPDATE_ITEM action to the reducer for efficiency
+      dispatch({ type: 'REMOVE_ITEM', payload: bundleHandle });
+      dispatch({ type: 'ADD_ITEM', payload: updatedBundle });
+    }
+  };
+
 
 
   const removeItem = (handle: string) => {
@@ -273,6 +304,8 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
     addItem,
     addBundle,
     removeItem,
+    removeBundleItem,
+
 
     updateQuantity,
     clearCart,

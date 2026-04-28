@@ -8,7 +8,8 @@ import { X, Plus, Minus, ShoppingBag, ExternalLink } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 
 const CartSidebar: React.FC = () => {
-  const { state, removeItem, updateQuantity, closeCart, getCheckoutUrl } = useCart();
+  const { state, removeItem, removeBundleItem, updateQuantity, closeCart, getCheckoutUrl } = useCart();
+
   const router = useRouter();
 
   const formatPrice = (price: string) => {
@@ -67,62 +68,90 @@ const CartSidebar: React.FC = () => {
             ) : (
               <div className="space-y-4">
                 {state.items.map((item, index) => (
-                  <div key={item.handle || index} className="flex gap-3 p-3 bg-gray-50 rounded-lg">
-                    {/* Product Image Placeholder */}
-                    <div className="w-16 h-16 bg-gradient-to-br from-purple-100 to-pink-100 rounded-lg flex items-center justify-center flex-shrink-0 relative overflow-hidden">
-                      {item.image ? (
-                        <Image
-                          src={item.image}
-                          alt={item.title}
-                          fill
-                          sizes="64px"
-                          className="object-cover rounded-lg"
-                        />
-                      ) : (
-                        <div className="w-full h-full bg-gradient-to-br from-purple-100 to-pink-100 rounded-lg flex items-center justify-center">
-                          <ShoppingBag className="w-6 h-6 text-gray-400" />
-                        </div>
-                      )}
-                    </div>
-
-                    {/* Product Info */}
-                    <div className="flex-1 min-w-0">
-                      <h4 className="text-sm font-medium text-gray-900 truncate">
-                        {item.title}
-                      </h4>
-                      <p className="text-sm text-gray-500 mt-1">
-                        {formatPrice(item.price)}
-                      </p>
-
-                      {/* Quantity Controls */}
-                      <div className="flex items-center gap-2 mt-2">
-                        <button
-                          onClick={() => updateQuantity(item.handle, item.quantity - 1)}
-                          className="w-6 h-6 rounded-full bg-gray-200 hover:bg-gray-300 flex items-center justify-center transition-colors"
-                        >
-                          <Minus className="w-3 h-3" />
-                        </button>
-                        <span className="text-sm font-medium w-8 text-center">
-                          {item.quantity}
-                        </span>
-                        <button
-                          onClick={() => updateQuantity(item.handle, item.quantity + 1)}
-                          className="w-6 h-6 rounded-full bg-gray-200 hover:bg-gray-300 flex items-center justify-center transition-colors"
-                        >
-                          <Plus className="w-3 h-3" />
-                        </button>
+                  <div key={item.handle || index} className="flex flex-col gap-2 p-3 bg-gray-50 rounded-lg">
+                    <div className="flex gap-3">
+                      {/* Product Image Placeholder */}
+                      <div className="w-16 h-16 bg-gradient-to-br from-purple-100 to-pink-100 rounded-lg flex items-center justify-center flex-shrink-0 relative overflow-hidden">
+                        {item.image ? (
+                          <Image
+                            src={item.image}
+                            alt={item.title}
+                            fill
+                            sizes="64px"
+                            className="object-cover rounded-lg"
+                          />
+                        ) : (
+                          <div className="w-full h-full bg-gradient-to-br from-purple-100 to-pink-100 rounded-lg flex items-center justify-center">
+                            <ShoppingBag className="w-6 h-6 text-gray-400" />
+                          </div>
+                        )}
                       </div>
+
+                      {/* Product Info */}
+                      <div className="flex-1 min-w-0">
+                        <h4 className="text-sm font-medium text-gray-900 line-clamp-2">
+                          {item.title}
+                        </h4>
+                        <p className="text-sm text-gray-500 mt-1">
+                          {formatPrice(item.price)}
+                        </p>
+
+                        {/* Quantity Controls */}
+                        {!item.bundleItems && (
+                          <div className="flex items-center gap-2 mt-2">
+                            <button
+                              onClick={() => updateQuantity(item.handle, item.quantity - 1)}
+                              className="w-6 h-6 rounded-full bg-gray-200 hover:bg-gray-300 flex items-center justify-center transition-colors"
+                            >
+                              <Minus className="w-3 h-3" />
+                            </button>
+                            <span className="text-sm font-medium w-8 text-center">
+                              {item.quantity}
+                            </span>
+                            <button
+                              onClick={() => updateQuantity(item.handle, item.quantity + 1)}
+                              className="w-6 h-6 rounded-full bg-gray-200 hover:bg-gray-300 flex items-center justify-center transition-colors"
+                            >
+                              <Plus className="w-3 h-3" />
+                            </button>
+                          </div>
+                        )}
+                      </div>
+
+                      {/* Remove Button */}
+                      <button
+                        onClick={() => removeItem(item.handle)}
+                        className="p-1 hover:bg-gray-200 rounded-full transition-colors self-start"
+                      >
+                        <X className="w-4 h-4 text-gray-400" />
+                      </button>
                     </div>
 
-                    {/* Remove Button */}
-                    <button
-                      onClick={() => removeItem(item.handle)}
-                      className="p-1 hover:bg-gray-200 rounded-full transition-colors self-start"
-                    >
-                      <X className="w-4 h-4 text-gray-400" />
-                    </button>
+                    {/* Bundle Items Sub-list */}
+                    {item.bundleItems && (
+                      <div className="ml-4 pl-4 border-l-2 border-gray-200 space-y-2 mt-1">
+                        {item.bundleItems.map((bundleProduct, idx) => (
+                          <div key={idx} className="flex items-center opacity-80">
+                            <div className="flex items-center gap-2 min-w-0">
+                              <div className="w-8 h-8 relative rounded bg-white overflow-hidden flex-shrink-0 border border-gray-100">
+                                <Image 
+                                  src={bundleProduct.images[0] || ""} 
+                                  alt={bundleProduct.title} 
+                                  fill 
+                                  className="object-contain p-0.5" 
+                                />
+                              </div>
+                              <span className="text-[11px] text-gray-600 line-clamp-1">{bundleProduct.title}</span>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+
+
                   </div>
                 ))}
+
               </div>
             )}
           </div>

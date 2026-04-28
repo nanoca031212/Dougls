@@ -75,7 +75,8 @@ export default function ProductPage() {
   const handle = Array.isArray(params.handle)
     ? params.handle[0]
     : params.handle;
-  const { addItem, state } = useCart();
+  const { addItem, addBundle, state } = useCart();
+
   const { isBundleActive, bundleSize, selectedItems, currentSlot, startBundle, selectProduct, removeProduct, clearBundle, isComplete } = useBundle();
   const { trackStoreProductViewed } = useUTM();
   const router = useRouter();
@@ -508,7 +509,7 @@ export default function ProductPage() {
                                     <path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
                                   </svg>
                                 </button>
-                                {index > 0 && (
+                                {item && index > 0 && (
                                   <button 
                                     onClick={(e) => {
                                       e.stopPropagation();
@@ -521,6 +522,8 @@ export default function ProductPage() {
                                     </svg>
                                   </button>
                                 )}
+
+
                               </div>
                             )}
                           </div>

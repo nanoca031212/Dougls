@@ -9,7 +9,12 @@ interface BundleContextType {
   bundleSize: number;
   selectedItems: (Product | null)[];
   currentSlot: number | null;
+  setCurrentSlot: (slot: number | null) => void;
+  returnToHandle: string | null;
+  setReturnToHandle: (handle: string | null) => void;
   startBundle: (size: number, initialProduct?: Product) => void;
+
+
   selectProduct: (product: Product) => void;
   removeProduct: (index: number) => void;
   clearBundle: () => void;
@@ -23,7 +28,9 @@ export const BundleProvider: React.FC<{ children: React.ReactNode }> = ({ childr
   const [bundleSize, setBundleSize] = useState(3);
   const [selectedItems, setSelectedItems] = useState<(Product | null)[]>([]);
   const [currentSlot, setCurrentSlot] = useState<number | null>(null);
+  const [returnToHandle, setReturnToHandle] = useState<string | null>(null);
   const router = useRouter();
+
 
   // Load from localStorage on mount
   useEffect(() => {
@@ -72,22 +79,26 @@ export const BundleProvider: React.FC<{ children: React.ReactNode }> = ({ childr
     newItems[currentSlot] = product;
     setSelectedItems(newItems);
 
+    // Se estiver editando o primeiro perfume (slot 0), atualiza o returnToHandle
+    if (currentSlot === 0) {
+      setReturnToHandle(product.handle);
+    }
+
     // Encontrar o próximo slot vazio
     const nextSlot = newItems.findIndex(item => item === null);
     if (nextSlot !== -1) {
       setCurrentSlot(nextSlot);
-      router.push('/'); // Mantém na home para continuar escolhendo
+      router.push('/'); 
     } else {
       setCurrentSlot(null);
-      // Se completou, volta para a página do último produto ou mantém na home? 
-      // O BritScent volta para a página do produto do bundle.
-      // Vamos voltar para a página do primeiro produto do bundle para finalizar.
-      const firstProduct = newItems[0];
-      if (firstProduct) {
-        router.push(`/products/${firstProduct.handle}?bundleComplete=true`);
+      const targetHandle = (currentSlot === 0 ? product.handle : returnToHandle) || newItems[0]?.handle;
+      if (targetHandle) {
+        router.push(`/products/${targetHandle}?bundleComplete=true`);
       }
     }
   };
+
+
 
   const removeProduct = (index: number) => {
     const newItems = [...selectedItems];
@@ -112,7 +123,12 @@ export const BundleProvider: React.FC<{ children: React.ReactNode }> = ({ childr
       bundleSize,
       selectedItems,
       currentSlot,
+      setCurrentSlot,
+      returnToHandle,
+      setReturnToHandle,
       startBundle,
+
+
       selectProduct,
       removeProduct,
       clearBundle,

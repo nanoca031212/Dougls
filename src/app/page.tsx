@@ -11,12 +11,30 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { getProductData, filterProducts, searchProducts, formatPrice, FilterState, ProductsData, Product } from '../utils/products';
 import { useBundle } from '@/contexts/BundleContext';
+import { useSearchParams } from 'next/navigation';
+
 
 
 export default function Home() {
   const [productData, setProductData] = useState<ProductsData | null>(null);
   const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
-  const { isBundleActive, bundleSize, selectedItems, currentSlot, selectProduct, clearBundle } = useBundle();
+  const { isBundleActive, bundleSize, selectedItems, currentSlot, setCurrentSlot, setReturnToHandle, selectProduct, clearBundle } = useBundle();
+  const searchParams = useSearchParams();
+
+  // Sincronizar slot e returnTo da query string
+  useEffect(() => {
+    const slot = searchParams.get('bundleSlot');
+    const returnTo = searchParams.get('returnTo');
+    
+    if (slot !== null) {
+      setCurrentSlot(parseInt(slot));
+    }
+    if (returnTo !== null) {
+      setReturnToHandle(returnTo);
+    }
+  }, [searchParams, setCurrentSlot, setReturnToHandle]);
+
+
 
   const [isFilterSidebarOpen, setIsFilterSidebarOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
