@@ -60,7 +60,8 @@ export async function POST(request: Request) {
                     imageUrls = [imagePath];
                 } else {
                     // Encode each part of the path separately to preserve slashes but handle spaces
-                    const encodedPath = imagePath.split('/').map(part => encodeURIComponent(part)).join('/');
+                    const encodedPath = imagePath.split('/').map((part: string) => encodeURIComponent(part)).join('/');
+
                     imageUrls = [`${origin}${encodedPath.startsWith('/') ? '' : '/'}${encodedPath}`];
                 }
             }
