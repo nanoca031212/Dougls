@@ -11,6 +11,7 @@ import {
   getProductByHandle,
   getRelatedProducts,
   formatPrice,
+  getDiscountedPrice,
   Product,
 } from "../../../utils/products";
 
@@ -93,8 +94,15 @@ export default function ProductPage() {
   const searchParams = useSearchParams();
 
   // Scroll suave para a seção de bundles ao carregar o produto, mantendo o título visível
+  // Apenas rola se não for um recarregamento de página (reload)
   useEffect(() => {
     if (product) {
+      // Verificar se é um reload
+      const navigationEntries = typeof window !== 'undefined' ? window.performance.getEntriesByType('navigation') : [];
+      const isReload = navigationEntries.length > 0 && (navigationEntries[0] as any).type === 'reload';
+      
+      if (isReload) return;
+
       const element = document.getElementById('bundle-selector');
       if (element) {
         // Pequeno delay para garantir que o DOM foi renderizado
@@ -110,9 +118,6 @@ export default function ProductPage() {
       }
     }
   }, [product]);
-
-
-
 
   const handleAddToCart = async () => {
 
@@ -451,15 +456,20 @@ export default function ProductPage() {
                           <div className="product-detail__variant-row-price">
                             <div className="text-sm text-gray-600 mb-1">
                               <span
-                                aria-label={`Preis ${size === 1 ? formatPrice(product.price, product.currency) : size === 3 ? '€49,99' : '€99,99'} pro ${size} Stück`}
+                                aria-label={`Preis ${size === 1 ? formatPrice(getDiscountedPrice(product), product.currency) : size === 3 ? '€49,99' : '€99,99'} pro ${size} Stück`}
                               >
                                 {size === 1 
-                                  ? `${formatPrice(product.price, product.currency)} / 1 Stück`
+                                  ? `${formatPrice(getDiscountedPrice(product), product.currency)} / 1 Stück`
                                   : size === 3 
                                     ? '€49,99 / 3 Stücke'
                                     : '€99,99 / 5 Stücke'
                                 }
                               </span>
+                              {size === 1 && getDiscountedPrice(product) !== product.price && (
+                                <span className="ml-2 text-xs line-through text-gray-400">
+                                  {formatPrice(product.price, product.currency)}
+                                </span>
+                              )}
                               <span className="ml-2 text-xs">inkl. MwSt.</span>
                             </div>
                           </div>
@@ -467,7 +477,16 @@ export default function ProductPage() {
                         <div className="text-right">
                           <div className="text-1xl font-thin text-black">
                             {size === 1 
-                              ? formatPrice(product.price, product.currency)
+                              ? (
+                                <div className="flex flex-col items-end">
+                                  <span>{formatPrice(getDiscountedPrice(product), product.currency)}</span>
+                                  {getDiscountedPrice(product) !== product.price && (
+                                    <span className="text-xs line-through text-gray-400">
+                                      {formatPrice(product.price, product.currency)}
+                                    </span>
+                                  )}
+                                </div>
+                              )
                               : size === 3 
                                 ? '€49,99'
                                 : '€99,99'
@@ -1294,8 +1313,13 @@ export default function ProductPage() {
                       </h3>
                       <div className="text-sm font-medium text-gray-900">
                         {formatPrice(
-                          relatedProduct.price,
+                          getDiscountedPrice(relatedProduct),
                           relatedProduct.currency,
+                        )}
+                        {getDiscountedPrice(relatedProduct) !== relatedProduct.price && (
+                          <span className="ml-2 text-xs line-through text-gray-400">
+                            {formatPrice(relatedProduct.price, relatedProduct.currency)}
+                          </span>
                         )}
                       </div>
                     </div>
@@ -1319,7 +1343,7 @@ export default function ProductPage() {
           >
             <span className="flex items-center justify-center gap-2 uppercase font-thin">
               {selectedPackageSize === 1 
-                ? `In den Warenkorb - ${formatPrice(product.price, product.currency)}`
+                ? `In den Warenkorb - ${formatPrice(getDiscountedPrice(product), product.currency)}`
                 : isComplete
                   ? `Bundle in den Warenkorb - ${selectedPackageSize === 3 ? '€49,99' : '€99,99'}`
                   : `Duft ${selectedItems.filter(i => i !== null).length + 1} von ${selectedPackageSize} auswählen`

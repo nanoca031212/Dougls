@@ -14,7 +14,7 @@
       "handle": "212-men-carolina-herrera-edt",
       "title": "212 Men Carolina Herrera Edt",
       "description": "Kaufen Sie 212 Men Carolina Herrera Edt. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 129,
       "currency": "EUR",
       "brands": [
         "212"
@@ -49,7 +49,7 @@
         {
           "id": "1-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 129,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -67,7 +67,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.53,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -87,7 +87,7 @@
       "handle": "alien-eau-de-parfum",
       "title": "Alien Eau de Parfum",
       "description": "Kaufen Sie Alien Eau de Parfum. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 132,
       "currency": "EUR",
       "brands": [
         "Alien"
@@ -122,7 +122,7 @@
         {
           "id": "2-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 132,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -140,7 +140,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.04,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -160,7 +160,7 @@
       "handle": "amadeirado-floral-fragrncia-marcante",
       "title": "Amadeirado Floral Fragrância Marcante",
       "description": "Kaufen Sie Amadeirado Floral Fragrância Marcante. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 144,
       "currency": "EUR",
       "brands": [
         "Amadeirado"
@@ -195,7 +195,7 @@
         {
           "id": "3-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 144,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -213,7 +213,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.78,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -233,7 +233,7 @@
       "handle": "angel-eau-de-toilette",
       "title": "Angel Eau de Toilette",
       "description": "Kaufen Sie Angel Eau de Toilette. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 139,
       "currency": "EUR",
       "brands": [
         "Angel"
@@ -268,7 +268,7 @@
         {
           "id": "4-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 139,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -286,7 +286,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.71,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -306,7 +306,7 @@
       "handle": "angel-mugler-les-perfuma-corps",
       "title": "Angel Mugler Les Perfuma Corps",
       "description": "Kaufen Sie Angel Mugler Les Perfuma Corps. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 142,
       "currency": "EUR",
       "brands": [
         "Angel"
@@ -341,7 +341,7 @@
         {
           "id": "5-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 142,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -359,7 +359,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.47,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -379,7 +379,7 @@
       "handle": "armaf-club-de-nuit-intense",
       "title": "Armaf Club De Nuit Intense",
       "description": "Kaufen Sie Armaf Club De Nuit Intense. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 147,
       "currency": "EUR",
       "brands": [
         "Armaf"
@@ -414,7 +414,7 @@
         {
           "id": "6-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 147,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -432,7 +432,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.24,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -452,7 +452,7 @@
       "handle": "armani-beauty-s-eau-de-parfum-refilvel",
       "title": "Armani Beauty  Sì Eau de Parfum Refilável",
       "description": "Kaufen Sie Armani Beauty  Sì Eau de Parfum Refilável. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 148,
       "currency": "EUR",
       "brands": [
         "Armani"
@@ -487,7 +487,7 @@
         {
           "id": "7-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 148,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -505,7 +505,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 79.06,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -525,7 +525,7 @@
       "handle": "armani-beauty-eau-pour-homme-pour-homme",
       "title": "Armani Beauty Eau pour Homme Pour homme",
       "description": "Kaufen Sie Armani Beauty Eau pour Homme Pour homme. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 123,
       "currency": "EUR",
       "brands": [
         "Armani"
@@ -560,7 +560,7 @@
         {
           "id": "8-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 123,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -578,7 +578,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.06,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -598,7 +598,7 @@
       "handle": "armani-beauty-stronger-with-you-intensely",
       "title": "Armani Beauty Stronger With You Intensely",
       "description": "Kaufen Sie Armani Beauty Stronger With You Intensely. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 120,
       "currency": "EUR",
       "brands": [
         "Armani"
@@ -633,7 +633,7 @@
         {
           "id": "9-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 120,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -651,7 +651,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.51,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -671,7 +671,7 @@
       "handle": "armani-code-giorgio-armani",
       "title": "Armani Code Giorgio Armani",
       "description": "Kaufen Sie Armani Code Giorgio Armani. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 145,
       "currency": "EUR",
       "brands": [
         "Armani"
@@ -706,7 +706,7 @@
         {
           "id": "10-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 145,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -724,7 +724,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 79.32,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -744,7 +744,7 @@
       "handle": "azzaro-pour-homme-eau-de-toilette",
       "title": "Azzaro Pour Homme Eau De Toilette",
       "description": "Kaufen Sie Azzaro Pour Homme Eau De Toilette. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 135,
       "currency": "EUR",
       "brands": [
         "Azzaro"
@@ -779,7 +779,7 @@
         {
           "id": "11-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 135,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -797,7 +797,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 76.3,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -817,7 +817,7 @@
       "handle": "bad-boy-extreme-eau-de-parfum",
       "title": "Bad Boy Extreme Eau de Parfum",
       "description": "Kaufen Sie Bad Boy Extreme Eau de Parfum. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 124,
       "currency": "EUR",
       "brands": [
         "Bad"
@@ -852,7 +852,7 @@
         {
           "id": "12-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 124,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -870,7 +870,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.23,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -890,7 +890,7 @@
       "handle": "black-opium-eau-de-parfum",
       "title": "Black Opium Eau de Parfum",
       "description": "Kaufen Sie Black Opium Eau de Parfum. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 131,
       "currency": "EUR",
       "brands": [
         "Black"
@@ -925,7 +925,7 @@
         {
           "id": "13-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 131,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -943,7 +943,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.87,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -963,7 +963,7 @@
       "handle": "bleu-de-chanel-eau-de-toilette",
       "title": "Bleu De Chanel Eau De Toilette",
       "description": "Kaufen Sie Bleu De Chanel Eau De Toilette. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 148,
       "currency": "EUR",
       "brands": [
         "Bleu"
@@ -998,7 +998,7 @@
         {
           "id": "14-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 148,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -1016,7 +1016,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.39,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -1036,7 +1036,7 @@
       "handle": "bleu-de-chanel-parfum",
       "title": "Bleu De Chanel Parfum",
       "description": "Kaufen Sie Bleu De Chanel Parfum. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 135,
       "currency": "EUR",
       "brands": [
         "Bleu"
@@ -1071,7 +1071,7 @@
         {
           "id": "15-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 135,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -1089,7 +1089,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 76.3,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -1109,7 +1109,7 @@
       "handle": "boss-the-scent-hugo-boss",
       "title": "Boss The Scent Hugo Boss",
       "description": "Kaufen Sie Boss The Scent Hugo Boss. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 121,
       "currency": "EUR",
       "brands": [
         "Boss"
@@ -1144,7 +1144,7 @@
         {
           "id": "16-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 121,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -1162,7 +1162,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.69,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -1182,7 +1182,7 @@
       "handle": "bottled-infinite",
       "title": "Bottled Infinite",
       "description": "Kaufen Sie Bottled Infinite. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 154,
       "currency": "EUR",
       "brands": [
         "Bottled"
@@ -1217,7 +1217,7 @@
         {
           "id": "17-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 154,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -1235,7 +1235,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 79.88,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -1255,7 +1255,7 @@
       "handle": "burberry-her-eau-de-parfum",
       "title": "Burberry Her Eau de Parfum",
       "description": "Kaufen Sie Burberry Her Eau de Parfum. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 135,
       "currency": "EUR",
       "brands": [
         "Burberry"
@@ -1290,7 +1290,7 @@
         {
           "id": "18-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 135,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -1308,7 +1308,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.53,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -1328,7 +1328,7 @@
       "handle": "bvlgari-man-in-black-parfum",
       "title": "Bvlgari Man In Black Parfum",
       "description": "Kaufen Sie Bvlgari Man In Black Parfum. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 133,
       "currency": "EUR",
       "brands": [
         "Bvlgari"
@@ -1363,7 +1363,7 @@
         {
           "id": "19-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 133,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -1381,7 +1381,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.2,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -1401,7 +1401,7 @@
       "handle": "byredo-rose-of-no-mans-land",
       "title": "Byredo Rose Of No Man's Land",
       "description": "Kaufen Sie Byredo Rose Of No Man's Land. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 130,
       "currency": "EUR",
       "brands": [
         "Byredo"
@@ -1436,7 +1436,7 @@
         {
           "id": "20-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 130,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -1454,7 +1454,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.7,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -1474,7 +1474,7 @@
       "handle": "carolina-herrera-212-vip-black",
       "title": "Carolina Herrera 212 Vip Black",
       "description": "Kaufen Sie Carolina Herrera 212 Vip Black. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 123,
       "currency": "EUR",
       "brands": [
         "Carolina"
@@ -1509,7 +1509,7 @@
         {
           "id": "21-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 123,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -1527,7 +1527,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.06,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -1547,7 +1547,7 @@
       "handle": "carolina-herrera-212-vip-rose",
       "title": "Carolina Herrera 212 Vip Rose",
       "description": "Kaufen Sie Carolina Herrera 212 Vip Rose. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 135,
       "currency": "EUR",
       "brands": [
         "Carolina"
@@ -1582,7 +1582,7 @@
         {
           "id": "22-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 135,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -1600,7 +1600,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.04,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -1620,7 +1620,7 @@
       "handle": "carolina-herrera-good",
       "title": "Carolina Herrera Good",
       "description": "Kaufen Sie Carolina Herrera Good. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 144,
       "currency": "EUR",
       "brands": [
         "Carolina"
@@ -1655,7 +1655,7 @@
         {
           "id": "23-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 144,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -1673,7 +1673,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 79.17,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -1693,7 +1693,7 @@
       "handle": "chlo-eau-de-parfum",
       "title": "Chloé Eau De Parfum",
       "description": "Kaufen Sie Chloé Eau De Parfum. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 142,
       "currency": "EUR",
       "brands": [
         "Chloé"
@@ -1728,7 +1728,7 @@
         {
           "id": "24-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 142,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -1746,7 +1746,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.47,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -1766,7 +1766,7 @@
       "handle": "coco-mademoiselle-eau-de-parfum",
       "title": "Coco Mademoiselle Eau de Parfum",
       "description": "Kaufen Sie Coco Mademoiselle Eau de Parfum. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 137,
       "currency": "EUR",
       "brands": [
         "Coco"
@@ -1801,7 +1801,7 @@
         {
           "id": "25-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 137,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -1819,7 +1819,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 76.65,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -1839,7 +1839,7 @@
       "handle": "creed-aventus",
       "title": "Creed Aventus",
       "description": "Kaufen Sie Creed Aventus. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 144,
       "currency": "EUR",
       "brands": [
         "Creed"
@@ -1874,7 +1874,7 @@
         {
           "id": "26-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 144,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -1892,7 +1892,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 79.17,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -1912,7 +1912,7 @@
       "handle": "creed-love-in-white",
       "title": "Creed Love In White",
       "description": "Kaufen Sie Creed Love In White. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 145,
       "currency": "EUR",
       "brands": [
         "Creed"
@@ -1947,7 +1947,7 @@
         {
           "id": "27-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 145,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -1965,7 +1965,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.94,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -1985,7 +1985,7 @@
       "handle": "de-nicho-layton",
       "title": "De Nicho Layton",
       "description": "Kaufen Sie De Nicho Layton. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 141,
       "currency": "EUR",
       "brands": [
         "De"
@@ -2020,7 +2020,7 @@
         {
           "id": "28-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 141,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -2038,7 +2038,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.02,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -2058,7 +2058,7 @@
       "handle": "dior-hypnotic-poison-eau-de-toillete",
       "title": "Dior Hypnotic Poison Eau De Toillete",
       "description": "Kaufen Sie Dior Hypnotic Poison Eau De Toillete. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 136,
       "currency": "EUR",
       "brands": [
         "Dior"
@@ -2093,7 +2093,7 @@
         {
           "id": "29-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 136,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -2111,7 +2111,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 76.48,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -2131,7 +2131,7 @@
       "handle": "dior-jadore-lor-essence-de-parfum",
       "title": "Dior J'adore L'or Essence De Parfum",
       "description": "Kaufen Sie Dior J'adore L'or Essence De Parfum. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 131,
       "currency": "EUR",
       "brands": [
         "Dior"
@@ -2166,7 +2166,7 @@
         {
           "id": "30-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 131,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -2184,7 +2184,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.87,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -2204,7 +2204,7 @@
       "handle": "dior-sauvage-eau-de-toilette",
       "title": "Dior Sauvage Eau de Toilette",
       "description": "Kaufen Sie Dior Sauvage Eau de Toilette. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 143,
       "currency": "EUR",
       "brands": [
         "Dior"
@@ -2239,7 +2239,7 @@
         {
           "id": "31-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 143,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -2257,7 +2257,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 79.03,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -2277,7 +2277,7 @@
       "handle": "dolce-gabbana-light-blue-eau-de-toilette",
       "title": "Dolce & Gabbana Light Blue Eau de Toilette",
       "description": "Kaufen Sie Dolce & Gabbana Light Blue Eau de Toilette. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 143,
       "currency": "EUR",
       "brands": [
         "Dolce"
@@ -2312,7 +2312,7 @@
         {
           "id": "32-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 143,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -2330,7 +2330,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.63,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -2350,7 +2350,7 @@
       "handle": "eau-de-parfum-guerlain-lhomme-idal-lintense",
       "title": "Eau de Parfum Guerlain L'Homme Idéal L'Intense",
       "description": "Kaufen Sie Eau de Parfum Guerlain L'Homme Idéal L'Intense. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 155,
       "currency": "EUR",
       "brands": [
         "Eau"
@@ -2385,7 +2385,7 @@
         {
           "id": "33-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 155,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -2403,7 +2403,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 80.01,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -2423,7 +2423,7 @@
       "handle": "ferrari-black-eau-de-toilette",
       "title": "Ferrari Black Eau De Toilette",
       "description": "Kaufen Sie Ferrari Black Eau De Toilette. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 124,
       "currency": "EUR",
       "brands": [
         "Ferrari"
@@ -2458,7 +2458,7 @@
         {
           "id": "34-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 124,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -2476,7 +2476,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.23,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -2496,7 +2496,7 @@
       "handle": "frederic-malle-portrait-of-a-lady-perfume",
       "title": "Frederic Malle Portrait Of A Lady Perfume",
       "description": "Kaufen Sie Frederic Malle Portrait Of A Lady Perfume. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 122,
       "currency": "EUR",
       "brands": [
         "Frederic"
@@ -2531,7 +2531,7 @@
         {
           "id": "35-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 122,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -2549,7 +2549,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.88,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -2569,7 +2569,7 @@
       "handle": "french-avenue-royal-blend-extrait-de-parfum",
       "title": "French Avenue Royal Blend Extrait De Parfum",
       "description": "Kaufen Sie French Avenue Royal Blend Extrait De Parfum. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 135,
       "currency": "EUR",
       "brands": [
         "French"
@@ -2604,7 +2604,7 @@
         {
           "id": "36-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 135,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -2622,7 +2622,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.04,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -2642,7 +2642,7 @@
       "handle": "gentleman-rserve-prive-givenchy",
       "title": "Gentleman Réserve Privée Givenchy",
       "description": "Kaufen Sie Gentleman Réserve Privée Givenchy. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 153,
       "currency": "EUR",
       "brands": [
         "Gentleman"
@@ -2677,7 +2677,7 @@
         {
           "id": "37-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 153,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -2695,7 +2695,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 79.75,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -2715,7 +2715,7 @@
       "handle": "giorgio-armani-acqua-di-gi-profondo",
       "title": "Giorgio Armani Acqua Di Giò Profondo",
       "description": "Kaufen Sie Giorgio Armani Acqua Di Giò Profondo. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 142,
       "currency": "EUR",
       "brands": [
         "Giorgio"
@@ -2750,7 +2750,7 @@
         {
           "id": "38-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 142,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -2768,7 +2768,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.18,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -2788,7 +2788,7 @@
       "handle": "giorgio-armani-si-eau-de-parfum",
       "title": "Giorgio Armani Si Eau De Parfum",
       "description": "Kaufen Sie Giorgio Armani Si Eau De Parfum. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 120,
       "currency": "EUR",
       "brands": [
         "Giorgio"
@@ -2823,7 +2823,7 @@
         {
           "id": "39-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 120,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -2841,7 +2841,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.51,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -2861,7 +2861,7 @@
       "handle": "givenchy-amarige",
       "title": "Givenchy Amarige",
       "description": "Kaufen Sie Givenchy Amarige. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 121,
       "currency": "EUR",
       "brands": [
         "Givenchy"
@@ -2896,7 +2896,7 @@
         {
           "id": "40-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 121,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -2914,7 +2914,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.69,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -2934,7 +2934,7 @@
       "handle": "givenchy-gentleman-society-ambre",
       "title": "Givenchy Gentleman Society Ambrée",
       "description": "Kaufen Sie Givenchy Gentleman Society Ambrée. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 136,
       "currency": "EUR",
       "brands": [
         "Givenchy"
@@ -2969,7 +2969,7 @@
         {
           "id": "41-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 136,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -2987,7 +2987,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 76.48,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -3007,7 +3007,7 @@
       "handle": "gucci-flora-gorgeous-gardenia-eau-de-parfum",
       "title": "Gucci Flora Gorgeous Gardenia Eau De Parfum",
       "description": "Kaufen Sie Gucci Flora Gorgeous Gardenia Eau De Parfum. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 141,
       "currency": "EUR",
       "brands": [
         "Gucci"
@@ -3042,7 +3042,7 @@
         {
           "id": "42-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 141,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -3060,7 +3060,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.73,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -3080,7 +3080,7 @@
       "handle": "gucci-guilty-pour-homme-eau-de-parfum",
       "title": "Gucci Guilty Pour Homme Eau de Parfum",
       "description": "Kaufen Sie Gucci Guilty Pour Homme Eau de Parfum. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 139,
       "currency": "EUR",
       "brands": [
         "Gucci"
@@ -3115,7 +3115,7 @@
         {
           "id": "43-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 139,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -3133,7 +3133,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.42,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -3153,7 +3153,7 @@
       "handle": "hugo-boss-perfume-bottled",
       "title": "Hugo Boss Perfume Bottled",
       "description": "Kaufen Sie Hugo Boss Perfume Bottled. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 149,
       "currency": "EUR",
       "brands": [
         "Hugo"
@@ -3188,7 +3188,7 @@
         {
           "id": "44-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 149,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -3206,7 +3206,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 79.2,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -3226,7 +3226,7 @@
       "handle": "initio-oud-for-greatness",
       "title": "Initio Oud for Greatness",
       "description": "Kaufen Sie Initio Oud for Greatness. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 145,
       "currency": "EUR",
       "brands": [
         "Initio"
@@ -3261,7 +3261,7 @@
         {
           "id": "45-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 145,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -3279,7 +3279,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 79.32,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -3299,7 +3299,7 @@
       "handle": "invictus-de-paco-rabanne-eau-de-toilette",
       "title": "Invictus De Paco Rabanne Eau De Toilette",
       "description": "Kaufen Sie Invictus De Paco Rabanne Eau De Toilette. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 124,
       "currency": "EUR",
       "brands": [
         "Invictus"
@@ -3334,7 +3334,7 @@
         {
           "id": "46-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 124,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -3352,7 +3352,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.23,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -3372,7 +3372,7 @@
       "handle": "invictus-legend",
       "title": "Invictus Legend",
       "description": "Kaufen Sie Invictus Legend. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 156,
       "currency": "EUR",
       "brands": [
         "Invictus"
@@ -3407,7 +3407,7 @@
         {
           "id": "47-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 156,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -3425,7 +3425,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 80.13,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -3445,7 +3445,7 @@
       "handle": "invictus-victory-paco-rabanne-edp",
       "title": "Invictus Victory Paco Rabanne Edp",
       "description": "Kaufen Sie Invictus Victory Paco Rabanne Edp. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 139,
       "currency": "EUR",
       "brands": [
         "Invictus"
@@ -3480,7 +3480,7 @@
         {
           "id": "48-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 139,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -3498,7 +3498,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.42,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -3518,7 +3518,7 @@
       "handle": "jean-paul-gaultier",
       "title": "Jean Paul Gaultier",
       "description": "Kaufen Sie Jean Paul Gaultier. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 138,
       "currency": "EUR",
       "brands": [
         "Jean"
@@ -3553,7 +3553,7 @@
         {
           "id": "49-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 138,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -3571,7 +3571,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.54,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -3591,7 +3591,7 @@
       "handle": "jean-paul-gaultier-le-male-elixir",
       "title": "Jean Paul Gaultier Le Male Elixir",
       "description": "Kaufen Sie Jean Paul Gaultier Le Male Elixir. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 140,
       "currency": "EUR",
       "brands": [
         "Jean"
@@ -3626,7 +3626,7 @@
         {
           "id": "50-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 140,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -3644,7 +3644,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.15,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -3664,7 +3664,7 @@
       "handle": "jean-paul-gaultier-scandal",
       "title": "Jean Paul Gaultier Scandal",
       "description": "Kaufen Sie Jean Paul Gaultier Scandal. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 139,
       "currency": "EUR",
       "brands": [
         "Jean"
@@ -3699,7 +3699,7 @@
         {
           "id": "51-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 139,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -3717,7 +3717,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.42,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -3737,7 +3737,7 @@
       "handle": "jean-paul-gaultier-ultra-male-eau-de-toilette-intense",
       "title": "Jean Paul Gaultier Ultra Male Eau de Toilette Intense",
       "description": "Kaufen Sie Jean Paul Gaultier Ultra Male Eau de Toilette Intense. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 130,
       "currency": "EUR",
       "brands": [
         "Jean"
@@ -3772,7 +3772,7 @@
         {
           "id": "52-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 130,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -3790,7 +3790,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.7,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -3810,7 +3810,7 @@
       "handle": "kenzo-homme-eau-de-parfum",
       "title": "Kenzo Homme Eau de Parfum",
       "description": "Kaufen Sie Kenzo Homme Eau de Parfum. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 129,
       "currency": "EUR",
       "brands": [
         "Kenzo"
@@ -3845,7 +3845,7 @@
         {
           "id": "53-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 129,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -3863,7 +3863,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.53,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -3883,7 +3883,7 @@
       "handle": "linterdit-eau-de-parfum",
       "title": "L'interdit Eau De Parfum",
       "description": "Kaufen Sie L'interdit Eau De Parfum. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 134,
       "currency": "EUR",
       "brands": [
         "L'interdit"
@@ -3918,7 +3918,7 @@
         {
           "id": "54-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 134,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -3936,7 +3936,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.37,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -3956,7 +3956,7 @@
       "handle": "lancme-la-nuit-trsor-fem",
       "title": "Lancôme La Nuit Trésor Fem",
       "description": "Kaufen Sie Lancôme La Nuit Trésor Fem. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 141,
       "currency": "EUR",
       "brands": [
         "Lancôme"
@@ -3991,7 +3991,7 @@
         {
           "id": "55-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 141,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -4009,7 +4009,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.02,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -4029,7 +4029,7 @@
       "handle": "lancme-la-vie-est-belle-vanille-nude",
       "title": "Lancôme La Vie Est Belle Vanille Nude",
       "description": "Kaufen Sie Lancôme La Vie Est Belle Vanille Nude. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 121,
       "currency": "EUR",
       "brands": [
         "Lancôme"
@@ -4064,7 +4064,7 @@
         {
           "id": "56-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 121,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -4082,7 +4082,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.69,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -4102,7 +4102,7 @@
       "handle": "le-labo-santal-33",
       "title": "Le Labo Santal 33",
       "description": "Kaufen Sie Le Labo Santal 33. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 139,
       "currency": "EUR",
       "brands": [
         "Le"
@@ -4137,7 +4137,7 @@
         {
           "id": "57-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 139,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -4155,7 +4155,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 76.99,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -4175,7 +4175,7 @@
       "handle": "libre-eau-de-parfum-da-yves-saint-laurent",
       "title": "Libre Eau de Parfum da Yves Saint Laurent",
       "description": "Kaufen Sie Libre Eau de Parfum da Yves Saint Laurent. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 133,
       "currency": "EUR",
       "brands": [
         "Libre"
@@ -4210,7 +4210,7 @@
         {
           "id": "58-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 133,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -4228,7 +4228,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 76.7,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -4248,7 +4248,7 @@
       "handle": "louis-vuitton-imagination",
       "title": "Louis Vuitton Imagination",
       "description": "Kaufen Sie Louis Vuitton Imagination. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 131,
       "currency": "EUR",
       "brands": [
         "Louis"
@@ -4283,7 +4283,7 @@
         {
           "id": "59-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 131,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -4301,7 +4301,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.87,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -4321,7 +4321,7 @@
       "handle": "m-micallef-gntonic",
       "title": "M. Micallef GnTonic",
       "description": "Kaufen Sie M. Micallef GnTonic. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 131,
       "currency": "EUR",
       "brands": [
         "M."
@@ -4356,7 +4356,7 @@
         {
           "id": "60-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 131,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -4374,7 +4374,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.87,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -4394,7 +4394,7 @@
       "handle": "marc-jacobs-perfect-eau-de-toilette",
       "title": "Marc Jacobs Perfect Eau de Toilette",
       "description": "Kaufen Sie Marc Jacobs Perfect Eau de Toilette. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 147,
       "currency": "EUR",
       "brands": [
         "Marc"
@@ -4429,7 +4429,7 @@
         {
           "id": "61-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 147,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -4447,7 +4447,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.92,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -4467,7 +4467,7 @@
       "handle": "million-gold-for-her",
       "title": "Million Gold for Her",
       "description": "Kaufen Sie Million Gold for Her. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 144,
       "currency": "EUR",
       "brands": [
         "Million"
@@ -4502,7 +4502,7 @@
         {
           "id": "62-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 144,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -4520,7 +4520,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.48,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -4540,7 +4540,7 @@
       "handle": "montblanc-explorer-extreme-eau-de",
       "title": "Montblanc Explorer Extreme Eau De",
       "description": "Kaufen Sie Montblanc Explorer Extreme Eau De. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 127,
       "currency": "EUR",
       "brands": [
         "Montblanc"
@@ -4575,7 +4575,7 @@
         {
           "id": "63-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 127,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -4593,7 +4593,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.75,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -4613,7 +4613,7 @@
       "handle": "montblanc-signature-absolue",
       "title": "Montblanc Signature Absolue",
       "description": "Kaufen Sie Montblanc Signature Absolue. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 144,
       "currency": "EUR",
       "brands": [
         "Montblanc"
@@ -4648,7 +4648,7 @@
         {
           "id": "64-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 144,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -4666,7 +4666,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.78,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -4686,7 +4686,7 @@
       "handle": "moschino-toy-boy",
       "title": "Moschino Toy Boy",
       "description": "Kaufen Sie Moschino Toy Boy. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 133,
       "currency": "EUR",
       "brands": [
         "Moschino"
@@ -4721,7 +4721,7 @@
         {
           "id": "65-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 133,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -4739,7 +4739,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 76.7,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -4759,7 +4759,7 @@
       "handle": "nuit-dissey-da-marca-issey-miyake",
       "title": "Nuit d'Issey da marca Issey Miyake",
       "description": "Kaufen Sie Nuit d'Issey da marca Issey Miyake. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 122,
       "currency": "EUR",
       "brands": [
         "Nuit"
@@ -4794,7 +4794,7 @@
         {
           "id": "66-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 122,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -4812,7 +4812,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.88,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -4832,7 +4832,7 @@
       "handle": "one-million-paco-rabanne",
       "title": "One Million Paco Rabanne",
       "description": "Kaufen Sie One Million Paco Rabanne. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 133,
       "currency": "EUR",
       "brands": [
         "One"
@@ -4867,7 +4867,7 @@
         {
           "id": "67-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 133,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -4885,7 +4885,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.2,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -4905,7 +4905,7 @@
       "handle": "orientica-royal-bleu-eau-de-parfum",
       "title": "Orientica Royal Bleu Eau De Parfum",
       "description": "Kaufen Sie Orientica Royal Bleu Eau De Parfum. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 147,
       "currency": "EUR",
       "brands": [
         "Orientica"
@@ -4940,7 +4940,7 @@
         {
           "id": "68-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 147,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -4958,7 +4958,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.24,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -4978,7 +4978,7 @@
       "handle": "paco-rabanne-olympa",
       "title": "Paco Rabanne Olympéa",
       "description": "Kaufen Sie Paco Rabanne Olympéa. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 133,
       "currency": "EUR",
       "brands": [
         "Paco"
@@ -5013,7 +5013,7 @@
         {
           "id": "69-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 133,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -5031,7 +5031,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.2,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -5051,7 +5051,7 @@
       "handle": "paco-rabanne-one-million",
       "title": "Paco Rabanne One Million",
       "description": "Kaufen Sie Paco Rabanne One Million. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 137,
       "currency": "EUR",
       "brands": [
         "Paco"
@@ -5086,7 +5086,7 @@
         {
           "id": "70-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 137,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -5104,7 +5104,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 76.65,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -5124,7 +5124,7 @@
       "handle": "paco-rabanne-phantom",
       "title": "Paco Rabanne Phantom",
       "description": "Kaufen Sie Paco Rabanne Phantom. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 148,
       "currency": "EUR",
       "brands": [
         "Paco"
@@ -5159,7 +5159,7 @@
         {
           "id": "71-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 148,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -5177,7 +5177,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 79.06,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -5197,7 +5197,7 @@
       "handle": "paradoxe-prada",
       "title": "Paradoxe Prada",
       "description": "Kaufen Sie Paradoxe Prada. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 146,
       "currency": "EUR",
       "brands": [
         "Paradoxe"
@@ -5232,7 +5232,7 @@
         {
           "id": "72-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 146,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -5250,7 +5250,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.77,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -5270,7 +5270,7 @@
       "handle": "prada-luna-rossa-black",
       "title": "Prada Luna Rossa Black",
       "description": "Kaufen Sie Prada Luna Rossa Black. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 143,
       "currency": "EUR",
       "brands": [
         "Prada"
@@ -5305,7 +5305,7 @@
         {
           "id": "73-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 143,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -5323,7 +5323,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.33,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -5343,7 +5343,7 @@
       "handle": "pure-xs-paco-rabanne-edt",
       "title": "Pure Xs Paco Rabanne Edt",
       "description": "Kaufen Sie Pure Xs Paco Rabanne Edt. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 137,
       "currency": "EUR",
       "brands": [
         "Pure"
@@ -5378,7 +5378,7 @@
         {
           "id": "74-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 137,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -5396,7 +5396,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.38,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -5416,7 +5416,7 @@
       "handle": "rabanne-fame-edp",
       "title": "Rabanne Fame Edp",
       "description": "Kaufen Sie Rabanne Fame Edp. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 134,
       "currency": "EUR",
       "brands": [
         "Rabanne"
@@ -5451,7 +5451,7 @@
         {
           "id": "75-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 134,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -5469,7 +5469,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.37,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -5489,7 +5489,7 @@
       "handle": "rabanne-phantom-parfum",
       "title": "Rabanne Phantom Parfum",
       "description": "Kaufen Sie Rabanne Phantom Parfum. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 120,
       "currency": "EUR",
       "brands": [
         "Rabanne"
@@ -5524,7 +5524,7 @@
         {
           "id": "76-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 120,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -5542,7 +5542,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.51,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -5562,7 +5562,7 @@
       "handle": "scandal-pour-homme",
       "title": "Scandal Pour Homme",
       "description": "Kaufen Sie Scandal Pour Homme. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 146,
       "currency": "EUR",
       "brands": [
         "Scandal"
@@ -5597,7 +5597,7 @@
         {
           "id": "77-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 146,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -5615,7 +5615,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.77,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -5635,7 +5635,7 @@
       "handle": "silver-scent-intense-jacques-bogart-eau-de-toilette",
       "title": "Silver Scent Intense Jacques Bogart Eau de Toilette",
       "description": "Kaufen Sie Silver Scent Intense Jacques Bogart Eau de Toilette. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 129,
       "currency": "EUR",
       "brands": [
         "Silver"
@@ -5670,7 +5670,7 @@
         {
           "id": "78-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 129,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -5688,7 +5688,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.53,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -5708,7 +5708,7 @@
       "handle": "the-only-one-da-marca-dolcegabbana",
       "title": "The Only One da marca Dolce&Gabbana",
       "description": "Kaufen Sie The Only One da marca Dolce&Gabbana. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 138,
       "currency": "EUR",
       "brands": [
         "The"
@@ -5743,7 +5743,7 @@
         {
           "id": "79-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 138,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -5761,7 +5761,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 76.82,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -5781,7 +5781,7 @@
       "handle": "tom-ford-beauty-tobacco-vanille-eau",
       "title": "Tom Ford Beauty Tobacco Vanille Eau",
       "description": "Kaufen Sie Tom Ford Beauty Tobacco Vanille Eau. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 132,
       "currency": "EUR",
       "brands": [
         "Tom"
@@ -5816,7 +5816,7 @@
         {
           "id": "80-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 132,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -5834,7 +5834,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.04,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -5854,7 +5854,7 @@
       "handle": "valentino-donna-born-in-roma-intense-eau-de",
       "title": "Valentino Donna Born In Roma Intense Eau De",
       "description": "Kaufen Sie Valentino Donna Born In Roma Intense Eau De. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 140,
       "currency": "EUR",
       "brands": [
         "Valentino"
@@ -5889,7 +5889,7 @@
         {
           "id": "81-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 140,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -5907,7 +5907,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.58,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -5927,7 +5927,7 @@
       "handle": "valentino-uomo-born-in-roma",
       "title": "Valentino Uomo Born In Roma",
       "description": "Kaufen Sie Valentino Uomo Born In Roma. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 138,
       "currency": "EUR",
       "brands": [
         "Valentino"
@@ -5962,7 +5962,7 @@
         {
           "id": "82-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 138,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -5980,7 +5980,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 76.82,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -6000,7 +6000,7 @@
       "handle": "versace-dylan-blue-eau",
       "title": "Versace Dylan Blue Eau",
       "description": "Kaufen Sie Versace Dylan Blue Eau. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 123,
       "currency": "EUR",
       "brands": [
         "Versace"
@@ -6035,7 +6035,7 @@
         {
           "id": "83-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 123,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -6053,7 +6053,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.06,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -6073,7 +6073,7 @@
       "handle": "versace-dylan-turquoise",
       "title": "Versace Dylan Turquoise",
       "description": "Kaufen Sie Versace Dylan Turquoise. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 146,
       "currency": "EUR",
       "brands": [
         "Versace"
@@ -6108,7 +6108,7 @@
         {
           "id": "84-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 146,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -6126,7 +6126,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.09,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -6146,7 +6146,7 @@
       "handle": "versace-eros-eau-de-parfum",
       "title": "Versace Eros Eau de Parfum",
       "description": "Kaufen Sie Versace Eros Eau de Parfum. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 134,
       "currency": "EUR",
       "brands": [
         "Versace"
@@ -6181,7 +6181,7 @@
         {
           "id": "85-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 134,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -6199,7 +6199,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 76.87,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -6219,7 +6219,7 @@
       "handle": "versace-eros-energy-eau-de-parfum",
       "title": "Versace Eros Energy Eau de Parfum",
       "description": "Kaufen Sie Versace Eros Energy Eau de Parfum. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 134,
       "currency": "EUR",
       "brands": [
         "Versace"
@@ -6254,7 +6254,7 @@
         {
           "id": "86-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 134,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -6272,7 +6272,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.37,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -6292,7 +6292,7 @@
       "handle": "versace-eros-pour-femme",
       "title": "Versace Eros Pour Femme",
       "description": "Kaufen Sie Versace Eros Pour Femme. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 129,
       "currency": "EUR",
       "brands": [
         "Versace"
@@ -6327,7 +6327,7 @@
         {
           "id": "87-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 129,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -6345,7 +6345,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.53,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -6365,7 +6365,7 @@
       "handle": "xerjoff-erba-pura-eau-de-parfum",
       "title": "Xerjoff Erba Pura Eau De Parfum",
       "description": "Kaufen Sie Xerjoff Erba Pura Eau De Parfum. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 141,
       "currency": "EUR",
       "brands": [
         "Xerjoff"
@@ -6400,7 +6400,7 @@
         {
           "id": "88-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 141,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -6418,7 +6418,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.02,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -6438,7 +6438,7 @@
       "handle": "y-elixir-ysl-parfum-intense",
       "title": "Y Elixir Ysl Parfum Intense",
       "description": "Kaufen Sie Y Elixir Ysl Parfum Intense. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 120,
       "currency": "EUR",
       "brands": [
         "Y"
@@ -6473,7 +6473,7 @@
         {
           "id": "89-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 120,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -6491,7 +6491,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 77.51,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -6511,7 +6511,7 @@
       "handle": "y-le-parfum-da-marca-yves-saint-laurent",
       "title": "Y Le Parfum da marca Yves Saint Laurent",
       "description": "Kaufen Sie Y Le Parfum da marca Yves Saint Laurent. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 125,
       "currency": "EUR",
       "brands": [
         "Y"
@@ -6546,7 +6546,7 @@
         {
           "id": "90-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 125,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -6564,7 +6564,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.41,
         "valid_until": "2026-12-31"
       },
       "metafields": {
@@ -6584,7 +6584,7 @@
       "handle": "yves-saint-laurent-mon-paris-eau-de-parfum",
       "title": "Yves Saint Laurent Mon Paris Eau de Parfum",
       "description": "Kaufen Sie Yves Saint Laurent Mon Paris Eau de Parfum. Premium Herrendüfte im Sonderangebot mit schneller Lieferung em Deutschland. Authentische Parfüms zum besten Preis.",
-      "price": 29.9,
+      "price": 134,
       "currency": "EUR",
       "brands": [
         "Yves"
@@ -6619,7 +6619,7 @@
         {
           "id": "91-default",
           "title": "Standard",
-          "price": 29.9,
+          "price": 134,
           "available": true,
           "inventory": 50,
           "weight": "0.5kg"
@@ -6637,7 +6637,7 @@
       "promotion": {
         "type": "fixed",
         "description": "ANGEBOT",
-        "discount_percentage": 0,
+        "discount_percentage": 78.37,
         "valid_until": "2026-12-31"
       },
       "metafields": {

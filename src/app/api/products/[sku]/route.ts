@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { query } from '@/utils/db';
 import productsData from '@/data/products.json';
+import { getDiscountedPrice } from '@/utils/products';
 
 export async function GET(
     request: Request,
@@ -30,7 +31,7 @@ export async function GET(
             // Formatar no mesmo estilo que o banco retornaria
             return NextResponse.json({
                 sku: productFromJson.id,
-                price: productFromJson.price,
+                price: getDiscountedPrice(productFromJson as any),
                 data: productFromJson
             });
         }

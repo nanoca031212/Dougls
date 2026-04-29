@@ -14,6 +14,7 @@ import {
   filterProducts,
   searchProducts,
   formatPrice,
+  getDiscountedPrice,
   FilterState,
   ProductsData,
   Product,
@@ -311,11 +312,18 @@ export default function Home() {
 
                         {/* Price */}
                         <div className="flex items-center justify-between">
-                          <div>
+                          <div className="flex items-baseline gap-2">
                             {product.price > 0 ? (
-                              <span className="text-lg font-thin font-[4px] text-gray-900">
-                                {formatPrice(product.price, "EUR")}
-                              </span>
+                              <>
+                                <span className="text-lg font-thin font-[4px] text-gray-900">
+                                  {formatPrice(getDiscountedPrice(product), "EUR")}
+                                </span>
+                                {getDiscountedPrice(product) !== product.price && (
+                                  <span className="text-sm font-thin text-gray-400 line-through">
+                                    {formatPrice(product.price, "EUR")}
+                                  </span>
+                                )}
+                              </>
                             ) : (
                               <span className="text-sm font-medium text-green-600">
                                 Sonderangebot
