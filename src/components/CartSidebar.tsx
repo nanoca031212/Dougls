@@ -8,7 +8,8 @@ import { X, Plus, Minus, ShoppingBag, ExternalLink } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 
 const CartSidebar: React.FC = () => {
-  const { state, removeItem, removeBundleItem, updateQuantity, closeCart, getCheckoutUrl } = useCart();
+  const { state, removeItem, updateQuantity, closeCart, getCheckoutUrl } = useCart();
+
 
   const router = useRouter();
 
