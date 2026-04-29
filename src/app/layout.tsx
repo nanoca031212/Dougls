@@ -39,7 +39,8 @@ export default function RootLayout({
   const utmifyPixelId = process.env.NEXT_PUBLIC_UTMIFY_PIXEL_ID;
 
   return (
-    <html lang="pt-BR" className={`${inter.variable} ${nunitoSans.variable}`}>
+    <html lang="pt-BR" className={`${inter.variable} ${nunitoSans.variable}`} suppressHydrationWarning>
+
       <head>
         {/* Meta Pixel Code */}
         {metaPixelId && (
@@ -128,7 +129,8 @@ export default function RootLayout({
         />
 
       </head>
-      <body className="antialiased font-sans">
+      <body className="antialiased font-sans" suppressHydrationWarning>
+
         <UTMProvider
           enableGA4={false}
           enableMetaPixel={true}

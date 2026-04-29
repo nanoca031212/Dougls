@@ -1,7 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useParams } from "next/navigation";
+import { useParams, useSearchParams } from "next/navigation";
+
 import Image from "next/image";
 import Link from "next/link";
 import Header from "../../../components/Header";
@@ -89,7 +90,32 @@ export default function ProductPage() {
   const [selectedPackageSize, setSelectedPackageSize] = useState<number>(1);
 
   // Função para adicionar produto ao carrinho
+  const searchParams = useSearchParams();
+
+  // Scroll suave para a seção de bundles ao carregar o produto, mantendo o título visível
+  useEffect(() => {
+    if (product) {
+      const element = document.getElementById('bundle-selector');
+      if (element) {
+        // Pequeno delay para garantir que o DOM foi renderizado
+        setTimeout(() => {
+          const yOffset = -250; // Offset para deixar o título visível no topo
+          const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+          
+          window.scrollTo({
+            top: y,
+            behavior: 'smooth'
+          });
+        }, 800);
+      }
+    }
+  }, [product]);
+
+
+
+
   const handleAddToCart = async () => {
+
 
     if (!product || !handle) return;
 
@@ -385,7 +411,8 @@ export default function ProductPage() {
 
             {/* Variante do Produto */}
 
-            <div className="product-cockpit__variant space-y-3">
+            <div id="bundle-selector" className="product-cockpit__variant space-y-3">
+
               {[1, 3, 5].map((size) => (
                 <div
                   key={size}
