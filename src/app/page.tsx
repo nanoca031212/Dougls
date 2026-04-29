@@ -18,21 +18,33 @@ import { useSearchParams } from 'next/navigation';
 export default function Home() {
   const [productData, setProductData] = useState<ProductsData | null>(null);
   const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
-  const { isBundleActive, bundleSize, selectedItems, currentSlot, setCurrentSlot, setReturnToHandle, selectProduct, clearBundle } = useBundle();
+  const { isBundleActive, bundleSize, selectedItems, currentSlot, setCurrentSlot, setReturnToHandle, selectProduct, removeProduct, clearBundle } = useBundle();
+
   const searchParams = useSearchParams();
 
   // Sincronizar slot e returnTo da query string
   useEffect(() => {
     const slot = searchParams.get('bundleSlot');
     const returnTo = searchParams.get('returnTo');
+    const bundleActive = searchParams.get('bundleActive');
     
+    // Se navegou para a Home sem intenção de bundle, limpa o estado
+    if (slot === null && bundleActive === null && isBundleActive) {
+      // Pequeno delay para evitar conflito com redirecionamentos imediatos
+      const timer = setTimeout(() => {
+        clearBundle();
+      }, 100);
+      return () => clearTimeout(timer);
+    }
+
     if (slot !== null) {
       setCurrentSlot(parseInt(slot));
     }
     if (returnTo !== null) {
       setReturnToHandle(returnTo);
     }
-  }, [searchParams, setCurrentSlot, setReturnToHandle]);
+  }, [searchParams, isBundleActive, clearBundle, setCurrentSlot, setReturnToHandle]);
+
 
 
 
@@ -319,20 +331,44 @@ export default function Home() {
               </button>
             </div>
             <div className="flex gap-1.5 md:gap-2">
-              {selectedItems.map((item, i) => (
-                <div 
-                  key={i} 
-                  className={`flex-1 aspect-square rounded-lg border-2 flex items-center justify-center overflow-hidden ${
-                    currentSlot === i ? "border-black bg-gray-50" : "border-gray-100 bg-gray-50"
-                  }`}
-                >
+              {selectedItems.map((item, i) => {
+                const firstEmpty = selectedItems.findIndex(item => item === null);
+                const activeSlotIndex = firstEmpty !== -1 ? firstEmpty : currentSlot;
+                
+                return (
+                  <div 
+                    key={i} 
+                    className={`relative flex-1 aspect-square rounded-lg border-2 flex items-center justify-center overflow-hidden ${
+                      activeSlotIndex === i ? "border-black bg-gray-50" : "border-gray-100 bg-gray-50"
+                    }`}
+                  >
+
+                  {item && (
+                    <button 
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        removeProduct(i);
+                      }}
+                      className="absolute top-0 left-0 z-10 bg-red-500 shadow-md rounded-full p-0.5 hover:bg-red-600 transition-colors border border-red-700 text-white"
+                      title="Entfernen"
+                    >
+                      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" className="text-white">
+                        <path d="M18 6L6 18M6 6l12 12" />
+                      </svg>
+                    </button>
+                  )}
                   {item ? (
-                    <Image src={item.images[0]} alt={item.title} width={60} height={60} className="object-contain p-1" />
+                    <div className="relative w-full h-full">
+                      <Image src={item.images[0]} alt={item.title} fill className="object-contain p-1" />
+                    </div>
                   ) : (
                     <span className="text-[10px] md:text-xs text-gray-300 font-bold">{i + 1}</span>
                   )}
                 </div>
-              ))}
+
+                  );
+                })}
+
             </div>
           </div>
         )}

@@ -69,34 +69,47 @@ export const BundleProvider: React.FC<{ children: React.ReactNode }> = ({ childr
     }
     setSelectedItems(items);
     setIsBundleActive(true);
-    router.push('/');
+    router.push('/?bundleActive=true');
   };
 
+
   const selectProduct = (product: Product) => {
-    if (currentSlot === null) return;
+    // PRIORIDADE MÁXIMA: Tapar buracos (slots nulos)
+    const firstEmpty = selectedItems.findIndex(item => item === null);
+    
+    let targetSlot = currentSlot;
+    
+    // Se houver qualquer buraco, o próximo perfume selecionado DEVE ir para lá, SEMPRE.
+    if (firstEmpty !== -1) {
+      targetSlot = firstEmpty;
+    }
+
+    if (targetSlot === null) return;
 
     const newItems = [...selectedItems];
-    newItems[currentSlot] = product;
+    newItems[targetSlot] = product;
     setSelectedItems(newItems);
 
     // Se estiver editando o primeiro perfume (slot 0), atualiza o returnToHandle
-    if (currentSlot === 0) {
+    if (targetSlot === 0) {
       setReturnToHandle(product.handle);
     }
 
-    // Encontrar o próximo slot vazio
+    // Encontrar o próximo slot vazio após a inserção
     const nextSlot = newItems.findIndex(item => item === null);
     if (nextSlot !== -1) {
       setCurrentSlot(nextSlot);
-      router.push('/'); 
+      router.push('/?bundleActive=true'); 
     } else {
       setCurrentSlot(null);
-      const targetHandle = (currentSlot === 0 ? product.handle : returnToHandle) || newItems[0]?.handle;
+      const targetHandle = (targetSlot === 0 ? product.handle : returnToHandle) || newItems[0]?.handle;
       if (targetHandle) {
         router.push(`/products/${targetHandle}?bundleComplete=true`);
       }
     }
   };
+
+
 
 
 
