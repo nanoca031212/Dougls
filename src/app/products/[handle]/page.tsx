@@ -109,7 +109,7 @@ export default function ProductPage() {
             behavior: 'smooth'
           });
         }
-      }, 800);
+      }, 150);
     }
   }, [product, searchParams]);
 
