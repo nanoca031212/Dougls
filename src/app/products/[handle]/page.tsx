@@ -94,30 +94,24 @@ export default function ProductPage() {
   const searchParams = useSearchParams();
 
   // Scroll suave para a seção de bundles ao carregar o produto, mantendo o título visível
-  // Apenas rola se não for um recarregamento de página (reload)
   useEffect(() => {
     if (product) {
-      // Verificar se é um reload
-      const navigationEntries = typeof window !== 'undefined' ? window.performance.getEntriesByType('navigation') : [];
-      const isReload = navigationEntries.length > 0 && (navigationEntries[0] as any).type === 'reload';
-      
-      if (isReload) return;
-
-      const element = document.getElementById('bundle-selector');
-      if (element) {
-        // Pequeno delay para garantir que o DOM foi renderizado
-        setTimeout(() => {
+      // Pequeno delay para garantir que o DOM foi renderizado
+      setTimeout(() => {
+        const element = document.getElementById('bundle-selector');
+        if (element) {
           const yOffset = -250; // Offset para deixar o título visível no topo
-          const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+          // Usa scrollY em vez do obsoleto pageYOffset
+          const y = element.getBoundingClientRect().top + window.scrollY + yOffset;
           
           window.scrollTo({
             top: y,
             behavior: 'smooth'
           });
-        }, 800);
-      }
+        }
+      }, 800);
     }
-  }, [product]);
+  }, [product, searchParams]);
 
   const handleAddToCart = async () => {
 
@@ -416,7 +410,7 @@ export default function ProductPage() {
 
             {/* Variante do Produto */}
 
-            <div id="bundle-selector" className="product-cockpit__variant space-y-3">
+            <div id="bundle-selector" className="product-cockpit__variant space-y-3 px-4">
 
               {[1, 3, 5].map((size) => (
                 <div
@@ -516,26 +510,26 @@ export default function ProductPage() {
                             </div>
                             
                             {/* Botão de Seleção/Edição */}
-                            <div className="flex-1">
+                            <div className="flex-1 min-w-0">
                               <button
                                 onClick={(e) => {
                                   e.stopPropagation();
                                   // Se já tem item, pode querer editar. Se não, seleciona.
                                   router.push(`/?bundleSlot=${index}&returnTo=${handle}`);
                                 }}
-                                className={`w-full flex items-center justify-between px-4 py-3 rounded text-sm font-medium transition-colors ${
+                                className={`w-full flex items-center justify-between px-2 sm:px-4 py-3 rounded text-sm font-medium transition-colors ${
                                   item 
                                     ? "bg-gray-100 text-gray-800 hover:bg-gray-200" 
                                     : "bg-gray-200 text-gray-900 hover:bg-gray-300"
                                 }`}
                               >
-                                <div className="flex flex-col items-start">
-                                  <span className="text-[10px] text-gray-500 uppercase">Duft auswählen</span>
-                                  <span className="truncate max-w-[200px]">
+                                <div className="flex flex-col items-start min-w-0 flex-1 mr-2">
+                                  <span className="text-[10px] text-gray-500 uppercase truncate w-full text-left">Duft auswählen</span>
+                                  <span className="truncate w-full text-left">
                                     {item ? item.title.toUpperCase() : "AUSWÄHLEN"}
                                   </span>
                                 </div>
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                                <svg className="flex-shrink-0" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                                   <path d="M9 18l6-6-6-6" />
                                 </svg>
                               </button>
@@ -543,7 +537,7 @@ export default function ProductPage() {
 
                             {/* Botões de Ação */}
                             {item && (
-                              <div className="flex gap-1">
+                              <div className="flex gap-1 flex-shrink-0">
                                 <button 
                                   onClick={(e) => {
                                     e.stopPropagation();
@@ -568,8 +562,6 @@ export default function ProductPage() {
                                     </svg>
                                   </button>
                                 )}
-
-
                               </div>
                             )}
                           </div>
@@ -590,7 +582,7 @@ export default function ProductPage() {
 
             {/* Informações de Entrega */}
             <div
-              className="product-delivery-info mb-6"
+              className="product-delivery-info mb-6 px-4"
               data-testid="product-delivery-info"
             >
               <div className="availability-container">
